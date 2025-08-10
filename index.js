@@ -38,7 +38,7 @@ const connectionString = "mongodb+srv://admin:123@cluster0.yqlxdea.mongodb.net/?
 
 mongoose.connect(connectionString).then(
     ()=>{
-        console.log("Database connected Successfully")
+        console.log("Database connected Successfully.")
     }
 ).catch(
     ()=>{
