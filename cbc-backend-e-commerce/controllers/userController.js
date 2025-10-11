@@ -103,3 +103,11 @@ export function loginUser(req,res){
 
     return true;
  }  
+
+ export function isCustomer(req){
+    if(req.user == null){
+        return false 
+    }
+
+    return true;
+ }
