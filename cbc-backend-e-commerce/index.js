@@ -2,9 +2,9 @@ import express from "express";
 import mongoose from "mongoose";
 import jwt from "jsonwebtoken";
 
-import studentRouter from "./routers/studentsRouter.js";
-import userRouter from "./routers/userRouter.js";
-import productRouter from "./routers/productRouter.js";
+import studentRouter from "./routes/studentsRouter.js";
+import userRouter from "./routes/userRouter.js";
+import productRouter from "./routes/productRouter.js";
 
 
 
